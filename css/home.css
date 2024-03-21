@@ -1,0 +1,32 @@
+br {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+#seja_raro {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#seja_raro img {
+  width: 600px;
+  border-radius: 600px;
+}
+
+.subtitulo {
+  text-align: center;
+  font-weight: 700;
+}
+
+#webnar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.webnar iframe {
+  max-width: 100%;
+}

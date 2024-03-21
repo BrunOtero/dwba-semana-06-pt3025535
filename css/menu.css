@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #434242;
+  font-size: 20px;
+  color: #eae6e6
+}
+
+.menu_esquerda {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu_esquerda div,
+.menu_direita div {
+  padding: 15px 20px 15px 20px;
+}
+
+#logo {
+  display: block;
+  width: 100%;
+  background-color: green;
+}
+
+.menu a {
+  color: #eae6e6;
+  text-decoration: none;
+  /* Remove o sublinhado padrão dos links */
+}
+
+.menu div:hover {
+  background-color: red;
+  /* Define o background como vermelho ao passar o mouse */
+}
+
+#facebook {
+  margin-left: 20px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+footer {
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown_content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown_content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown_content {
+  display: block;
+}
+
+.dropdown:hover .dropdown_content a {
+  display: block;
+}

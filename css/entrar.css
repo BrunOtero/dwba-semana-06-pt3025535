@@ -1,0 +1,15 @@
+button[type="submit"] {
+  position: relative;
+  width: 100%;
+  padding: 15px 20px 15px 20px;
+  margin-bottom: 20px;
+  color: #FFFFFF;
+  background-color: green;
+  border: #02c002
+}
+
+.gray {
+  background-color: #e7e9e7;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

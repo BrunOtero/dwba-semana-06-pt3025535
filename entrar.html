@@ -1,39 +1,78 @@
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" href="css/entrar.css">
+<link rel="stylesheet" href="css/menu.css">
+
 <head>
-<meta charset="UTF-8">
-<title>Sobre - IFSP - Pirituba</title>
-<script src="js/disabling.js"></script>
+  <meta charset="UTF-8">
+  <title>Sobre - IFSP - Pirituba</title>
+  <script src="js/disabling.js"></script>
 </head>
+
 <body>
 
-  <header id="cabecalho"> <!-- Indica o cabeçalho do nosso documento-->
-    <nav>
-      <object width="100%" height="175px" data="menu.html"></object>
-    </nav>
-  </header>
-
-  <h1>Entrar</h1>
-
-  <form>
-    <label for="usuario">Usuário</label>
-    <input type="text" name="usuario" id="usuario" required>
-    <br><br>
-    <label for="senha">Senha</label>
-    <input type="password" name="senha" id="senha" required>
-    <br><br>
-    <button type="submit">Entrar</button>
-    <a href="#">Esqueci a senha</a>
-  </form>
-  
-  <footer>
-      <br><br>
-          <a href="https://www.facebook.com/ifsppirituba"><img src="Imagens/facebook.png" width="41" height="43" title="IFSP Facebook" alt="IFSP Facebook"></a>
+  <ul class="menu">
+    <li class="menu_esquerda">
+      <div><a href="./index.html">
+          <p>HOME</p>
+        </a></div>
+      <div><a href="./eventos.html">
+          <p>EVENTOS</p>
+        </a></div>
+      <div><a href="./contato.html">
+          <p>CONTATO</p>
+        </a></div>
+      <div class="dropdown">
+        <a href="#">
+          <p>CURSOS</p>
+          <div class="dropdown_content">
+            <a href="/ads.html">Análise e Desenvolvimento de Sistemas</a>
+            <a href="#">Engenharia de Produtos</a>
+          </div>
       </div>
-      <p>
-          IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato: (011) 2504-0100
-      </p>
+      </a>
+      <div><a href="/entrar.html">
+          <p>ENTRAR</p>
+        </a></div>
+    </li>
+    <li class="menu_direita">
+      <div><a href="/sobre.html">SOBRE</a></div>
+    </li>
+  </ul>
+  <div id="logo"><img src="Imagens/Logo.jpg" alt="Logo IFSP"></div>
+  <br>
+  <h1>Entrar</h1>
+  <br>
+  <form>
+    <div class="gray">
+      <label for="usuario">Usuário</label>
+      <input type="text" name="usuario" id="usuario" required>
+    </div>
+
+    <br><br>
+
+    <div class="gray">
+      <label for="senha">Senha</label>
+      <input type="password" name="senha" id="senha" required>
+    </div>
+    <br><br>
+    <div class="gray">
+      <button type="submit">Entrar</button>
+      <a href="#">Esqueci a senha</a>
+    </div>
+  </form>
+
+  <div id="facebook">
+    <a href="https://www.facebook.com/ifsppirituba">
+      <img src="Imagens/facebook.png" alt="Facebook IFSP" width="40px">
+    </a>
+  </div>
+
+  <footer>
+    IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato: (011)
+    2504-0100
   </footer>
 
 </body>
+
 </html>
