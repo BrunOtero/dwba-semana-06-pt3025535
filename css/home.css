@@ -11,8 +11,7 @@ br {
 }
 
 #seja_raro img {
-  width: 600px;
-  border-radius: 600px;
+  border-radius: 50%;
 }
 
 .subtitulo {
